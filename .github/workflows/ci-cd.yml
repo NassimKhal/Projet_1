@@ -26,7 +26,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Tests
-        run: echo "Ici, tu peux ajouter des tests unitaires avec pytest"
+        run: |
+          python -m pytest app/test_app.py  # Lancement des tests
 
   docker:
     needs: build
