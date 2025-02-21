@@ -21,7 +21,6 @@ Projet_1/
 - **Python** (Flask)
 - **Docker**
 - **GitHub Actions** (CI/CD)
-- **Docker Hub**
 
 ## 🔧 Installation & Running Locally
 ### 1️⃣ Clone the repository
